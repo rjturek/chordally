@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Fretboard from "./Fretboard.js";
+import Heading from './Heading.js';
 
 class App extends Component {
   render() {
@@ -9,6 +10,9 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           Chordally.com
+        </div>
+        <div>
+          <Heading/>
         </div>
         <div>
           <Fretboard/>

@@ -1,18 +1,39 @@
+
 .App {
   text-align: left;
-  /* See https://wordmark.it/  */
-  font-family: "GurmukhiMN-Bold", Times, serif;
 }
 
 .App-header {
   background-color: #115e79;
+  /* See https://wordmark.it/  */
+  font-family: "GurmukhiMN-Bold", Times, serif;
   font-size: 25px;
-  /*height: 50px;*/
   color: white;
-  /*padding-top: 5px;*/
-  /*padding-right: 30px;*/
-  /*padding-bottom: 1px;*/
   padding-left: 12px;
 }
+
+.Heading {
+  font-size: 24px;
+  padding: 1rem;
+}
+.FretGrid {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  position: relative;
+  /*margin: 2px;*/
+  padding: 10px;
+  /*align-items: stretch;*/
+  /*justify-content: flex-start;*/
+  flex: 1 0 0;
+}
+
+.Spot {
+  border: 1px solid green;
+  font-size: 14px;
+  padding: .5rem;
+  border-collapse: separate;
+}
+
 
 
