@@ -3,21 +3,30 @@ var _ = require('lodash');
 
 class Fretboard extends Component {
   render() {
+    var numFrets = 5;
     var numStrings = 3;
+
+    function Spot(props) {
+      return <div className="Spot" key={props.num}>Bb{props.num}</div>;
+    }
+
     function String(props) {
-      return <div className="Spot" key={props.num}>ally{props.num}</div>;
+      var spots = [];
+      var i = 0;
+      _.times(numFrets, function () {
+        i++;
+        spots.push(Spot({num: i}));
+      });
+      return <div className="String" key={props.num}>{spots}</div>
     }
 
     var strings = [];
-
-    console.log("Num Strings " + numStrings);
-
     var i = 0;
     _.times(numStrings, function () {
       i++;
       strings.push(String({num: i}));
     });
-    return <div className="FretGrid">{strings}</div>;
+    return <div className="FretBoard">{strings}</div>;
   }
 }
 

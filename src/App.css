@@ -14,26 +14,29 @@
 
 .Heading {
   font-size: 24px;
-  padding: 1rem;
-}
-.FretGrid {
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  position: relative;
-  /*margin: 2px;*/
-  padding: 10px;
-  /*align-items: stretch;*/
-  /*justify-content: flex-start;*/
-  flex: 1 0 0;
+  padding: 2rem;
 }
 
 .Spot {
   border: 1px solid green;
   font-size: 14px;
-  padding: .5rem;
+  padding: .3rem;
   border-collapse: separate;
 }
 
+.String {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  flex: 1 0 0;
+}
 
+.FretBoard {
+  padding-left: 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+}
 
