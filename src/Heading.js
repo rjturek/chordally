@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-var _ = require('lodash');
+//var _ = require('lodash');
 
 class Heading extends Component {
   render() {
