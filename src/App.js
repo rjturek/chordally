@@ -5,7 +5,6 @@ import Heading from './Heading.js';
 
 class App extends Component {
   render() {
-    Fretboard.numStrings = 3;
     return (
       <div className="App">
         <div className="App-header">
@@ -15,7 +14,7 @@ class App extends Component {
           <Heading/>
         </div>
         <div>
-          <Fretboard/>
+          <Fretboard numStrings="6" numFrets="15" />
         </div>
       </div>
     );
