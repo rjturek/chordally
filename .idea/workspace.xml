@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="28897806-04ce-45dd-bed2-c704fe0b8ec0" name="Default" comment="First commit from IntelliJ" />
+    <list default="true" id="28897806-04ce-45dd-bed2-c704fe0b8ec0" name="Default" comment="First commit from IntelliJ">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="chordally.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -27,7 +30,12 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1504567503000" expanded="true" signature="201:443" placeholder="&lt;xml/&gt;" />
+                <marker date="1504567503000" expanded="true" signature="231:298" placeholder="&lt;xml/&gt;" />
+                <marker date="1504567503000" expanded="true" signature="307:348" placeholder="&lt;xml/&gt;" />
+                <marker date="1504567503000" expanded="true" signature="357:430" placeholder="&lt;xml/&gt;" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,8 +43,8 @@
       <file leaf-file-name="Fretboard.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Fretboard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42533082">
-              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.6597353">
+              <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -46,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -67,9 +75,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/fretboard.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/Heading.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/Fretboard.js" />
       </list>
     </option>
@@ -110,6 +118,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -162,9 +172,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -371,8 +379,42 @@
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1504567503000" expanded="true" signature="201:443" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="231:298" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="307:348" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="357:430" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fretboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <marker date="1504567503000" expanded="true" signature="201:443" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="231:298" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="307:348" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="357:430" placeholder="&lt;xml/&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -404,7 +446,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding />
+          <folding>
+            <marker date="1504567503000" expanded="true" signature="201:443" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="231:298" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="307:348" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="357:430" placeholder="&lt;xml/&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -436,7 +483,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
+          <folding>
+            <marker date="1504567503000" expanded="true" signature="201:443" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="231:298" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="307:348" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="357:430" placeholder="&lt;xml/&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -468,7 +520,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
+          <folding>
+            <marker date="1504567503000" expanded="true" signature="201:443" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="231:298" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="307:348" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="357:430" placeholder="&lt;xml/&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -556,7 +613,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6164383">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,22 +628,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1504567503000" expanded="true" signature="201:443" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="231:298" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="307:348" placeholder="&lt;xml/&gt;" />
+            <marker date="1504567503000" expanded="true" signature="357:430" placeholder="&lt;xml/&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Fretboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42533082">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.6597353">
+          <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
           <folding />
         </state>
       </provider>

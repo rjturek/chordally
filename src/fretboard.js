@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import classnames from 'classnames';
 var _ = require('lodash');
 
 
@@ -6,23 +7,38 @@ class Spot extends Component {
 
   constructor(props) {
     super(props);
+    //https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
     this.handleClicked = this.handleClicked.bind(this);
     var spotLocation = props.stringNum + "_" + props.fretNum;
-    this.state = {
-      label: spotLocation
+
+    var initialState = {
+      label: spotLocation,
+      spotClasses: classnames({
+        'Spot': true
+      })
     };
-    console.log("Spot constructed" + this.state);
+    console.log(initialState.spotClasses);
+    this.state = initialState;
   };
 
   handleClicked(e) {
-    console.log(this.props.fretNum);
-    this.state = {
-      label: "clicked"
-    };
+    //console.log(this.props.fretNum);
+    console.log("before " + this.state.label + " " + this.state.spotClasses);
+    var oldState = this.state;
+    var newState = oldState;
+    newState.label = "click";
+    newState.spotClasses = classnames({
+      'Spot': true,
+      'spotInChord': oldState.spotClasses  });
+
+    this.setState (newState);
+    //console.log("after " + this.state.label + " " + this.state.spotClasses);
+
+    //this.forceUpdate();
   };
 
   render() {
-    return <div className="Spot" key={this.state.label} onClick={this.handleClicked}>{this.state.label}</div>;
+    return <div className={this.state.spotClasses} key={this.state.label} onClick={this.handleClicked}>{this.state.label}</div>;
   };
 }
 
@@ -62,7 +78,7 @@ class Fretboard extends Component {
 
   constructor(props) {
     super(props);
-    console.log("constructing fretboard");
+    //console.log("constructing fretboard");
     var numStrings = props.numStrings;
     var numFrets  = props.numFrets;
 
@@ -79,7 +95,7 @@ class Fretboard extends Component {
   }
 
   render() {
-    console.log(this.state);
+    //console.log(this.state);
     return (
       <div className="Fretboard">
         {this.state.strings.map(function(string){

@@ -17,10 +17,15 @@
   padding: 2rem;
 }
 
+.spotInChord {
+  background-color: #e3389a
+}
+
 .Spot {
   border: 1px solid green;
-  font-size: 14px;
-  padding: .3rem;
+  width: 2rem;
+  font-size: 1rem;
+  padding: .1rem;
   border-collapse: separate;
 }
 
