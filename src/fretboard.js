@@ -6,6 +6,7 @@ class Spot extends Component {
 
   constructor(props) {
     super(props);
+    this.handleClicked = this.handleClicked.bind(this);
     var spotLocation = props.stringNum + "_" + props.fretNum;
     this.state = {
       label: spotLocation
@@ -14,7 +15,7 @@ class Spot extends Component {
   };
 
   handleClicked(e) {
-    alert("clicked");
+    console.log(this.props.fretNum);
     this.state = {
       label: "clicked"
     };
