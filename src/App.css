@@ -18,7 +18,12 @@
 }
 
 .spotInChord {
-  background-color: #e3389a
+  background-color: #e3389a;
+  border: 1px solid green;
+  width: 2rem;
+  font-size: 1rem;
+  padding: .1rem;
+  border-collapse: separate;
 }
 
 .Spot {

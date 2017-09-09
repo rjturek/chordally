@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import classnames from 'classnames';
 var _ = require('lodash');
 
 
@@ -13,9 +12,7 @@ class Spot extends Component {
 
     var initialState = {
       label: spotLocation,
-      spotClasses: classnames({
-        'Spot': true
-      })
+      classnames: "Spot"
     };
     console.log(initialState.spotClasses);
     this.state = initialState;
@@ -27,9 +24,7 @@ class Spot extends Component {
     var oldState = this.state;
     var newState = oldState;
     newState.label = "click";
-    newState.spotClasses = classnames({
-      'Spot': true,
-      'spotInChord': oldState.spotClasses  });
+    newState.classnames = "spotInChord";
 
     this.setState (newState);
     //console.log("after " + this.state.label + " " + this.state.spotClasses);
@@ -38,7 +33,7 @@ class Spot extends Component {
   };
 
   render() {
-    return <div className={this.state.spotClasses} key={this.state.label} onClick={this.handleClicked}>{this.state.label}</div>;
+    return <div className={this.state.classnames} key={this.state.label} onClick={this.handleClicked}>{this.state.label}</div>;
   };
 }
 
