@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
+import { connect } from "react-redux"
+import './../App.css';
 import Fretboard from "./Fretboard.js";
 import Heading from './Heading.js';
 
@@ -14,11 +15,12 @@ class App extends Component {
           <Heading/>
         </div>
         <div>
-          <Fretboard numStrings="6" numFrets="15" />
+          <Fretboard />
         </div>
       </div>
     );
   }
 }
 
-export default App;
+//export default App;
+export default connect(state => ({numStrings: 4, numFrets: 15}))(App);
